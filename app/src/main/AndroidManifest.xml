@@ -14,13 +14,14 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning"
         >
-        <activity android:name=".transition.TransitionActivity">
+        <activity android:name=".inset.InsetActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".transition.TransitionActivity" />
         <activity android:name=".level_list.LevelListActivity" />
         <activity android:name=".state_list.StateListActivity" />
         <activity android:name=".layer_list.LayerListActivity" />
