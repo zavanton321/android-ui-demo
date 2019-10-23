@@ -5,12 +5,12 @@
     android:layout_height="match_parent"
     >
 
-    <TextView
-        android:id="@+id/tvDemo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/ivDemo"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
         android:layout_gravity="center"
-        android:text="Portrait"
+        android:src="@drawable/two_phones"
         />
 
 </FrameLayout>
