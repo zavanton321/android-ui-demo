@@ -6,10 +6,11 @@
     >
 
     <ImageView
-        android:id="@+id/ivProgress"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
-        android:src="@drawable/progress"
+        android:id="@+id/ivTransition"
+        android:layout_gravity="center"
+        android:src="@drawable/transition"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         />
 
 </FrameLayout>
