@@ -1,9 +1,8 @@
-package com.example.uidemo
+package com.example.uidemo.main
 
 import android.os.Bundle
-import android.util.Log
-import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
+import com.example.uidemo.R
 
 class MainActivity : AppCompatActivity() {
 
@@ -11,12 +10,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val demo: LinearLayout? = null
-
-        val count = demo?.childCount ?: 0
-
-        for (i in 0..count) {
-            val result = demo?.getChildAt(i)
-        }
     }
 }
