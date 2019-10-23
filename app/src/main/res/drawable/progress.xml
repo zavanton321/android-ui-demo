@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@android:color/darker_gray"
+        android:maxLevel="33"
+        />
+
+    <item
+        android:drawable="@android:color/holo_blue_dark"
+        android:maxLevel="66"
+        />
+
+    <item
+        android:drawable="@android:color/black"
+        android:maxLevel="100"
+        />
+
+</level-list>
