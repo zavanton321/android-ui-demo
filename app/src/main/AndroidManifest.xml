@@ -14,13 +14,14 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning"
         >
-        <activity android:name=".scale.ScaleActivity">
+        <activity android:name=".shape.ShapeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".scale.ScaleActivity" />
         <activity android:name=".clip.ClipActivity" />
         <activity android:name=".inset.InsetActivity" />
         <activity android:name=".transition.TransitionActivity" />
